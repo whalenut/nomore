@@ -1,22 +1,22 @@
 import 'package:flutter/foundation.dart';
 
 class ResistItem with ChangeNotifier {
-  String title;
+  final String title;
   int counter;
-  int color;
+  final int color;
   final DateTime created;
-  List<DateTime> events;
+  final List<DateTime> events;
 
   ResistItem({
     @required this.title,
     @required this.counter,
     @required this.color,
-    this.created,
-    this.events = const [],
+    @required this.created,
+    @required this.events,
   });
 
   void increment() {
-    color += 1;
+    counter += 1;
     events.add(DateTime.now());
     notifyListeners();
   }

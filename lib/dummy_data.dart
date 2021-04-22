@@ -7,23 +7,27 @@ List<ResistItem> DUMMY_DATA = [
     counter: 0,
     color: Colors.green.value,
     created: DateTime.now(),
+    events: [],
   ),
   ResistItem(
     title: "Stop eating candy",
     counter: 0,
     color: Colors.orange.value,
     created: DateTime.now(),
+    events: [],
   ),
   ResistItem(
     title: "Stop using social media",
     counter: 0,
     color: Colors.blue.value,
     created: DateTime.now(),
+    events: [],
   ),
   ResistItem(
     title: "Stop snacking",
     counter: 0,
     color: Colors.red.value,
     created: DateTime.now(),
+    events: [],
   ),
 ];

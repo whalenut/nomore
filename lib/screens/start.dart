@@ -18,7 +18,7 @@ class StartScreen extends StatelessWidget {
                 width: double.infinity,
                 padding: EdgeInsets.symmetric(horizontal: 0, vertical: 30),
                 child: CarouselSlider(
-                  options: CarouselOptions(aspectRatio: 1 / 3),
+                  options: CarouselOptions(aspectRatio: 0.75),
                   items: resistItems.map((ri) {
                     return Builder(
                       builder: (BuildContext context) {
